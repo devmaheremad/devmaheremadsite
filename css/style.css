@@ -1,8 +1,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 * {
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 body {
@@ -10,21 +11,12 @@ body {
 }
 
 a {
-    color: #0563bb;
+    color: #37CCD7;
 }
 
 a:hover {
     color: #067ded;
     text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Raleway", sans-serif;
 }
 
 
@@ -40,7 +32,7 @@ h6 {
     border-radius: 50px;
     right: 15px;
     bottom: 15px;
-    background: #0563bb;
+    background: #37CCD7;
     color: #fff;
     transition: display 0.5s ease-in-out;
     z-index: 99999;
@@ -55,7 +47,7 @@ h6 {
 
 .back-to-top:hover {
     color: #fff;
-    background: #0678e3;
+    background: #37CCD7;
     transition: background 0.2s ease-in-out;
 }
 
@@ -80,7 +72,7 @@ h6 {
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #0563bb;
+    border: 6px solid #37CCD7;
     border-top-color: #fff;
     border-bottom-color: #fff;
     border-radius: 50%;
@@ -208,7 +200,7 @@ h6 {
 .nav-menu .active>a,
 .nav-menu li:hover>a {
     color: #fff;
-    background: #0563bb;
+    background: #37CCD7;
 }
 
 .nav-menu a:hover span,
@@ -259,7 +251,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-    color: #0563bb;
+    color: #37CCD7;
 }
 
 
@@ -270,13 +262,13 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero-bg.jpg") center center fixed no-repeat;
+    background: url("../img/hero-bg.webp") center center fixed no-repeat;
     background-size: cover;
     position: relative;
 }
 
 #hero button {
-    background: #0563bb;
+    background: #37CCD7;
     border: 0;
     padding: 10px 35px;
     transition: 0.4s;
@@ -285,7 +277,7 @@ h6 {
 }
 
 #hero button:hover {
-    background: #0678e3;
+    background: #37CCD7;
 }
 
 #hero button a {
@@ -324,12 +316,8 @@ h6 {
 }
 
 #hero p span {
-    color: #0563bb;
+    color: #37CCD7;
     letter-spacing: 1px;
-}
-
-#hero .social-links {
-    margin-top: 30px;
 }
 
 #hero .social-links a {
@@ -356,7 +344,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-    color: #0563bb;
+    color: #37CCD7;
 }
 
 @media (max-width: 992px) {
@@ -416,7 +404,7 @@ section {
     display: block;
     width: 40px;
     height: 3px;
-    background: #0563bb;
+    background: #37CCD7;
     bottom: 0;
     left: calc(50% - 20px);
 }
@@ -448,7 +436,7 @@ section {
 .about .content ul i {
     font-size: 20px;
     padding-right: 2px;
-    color: #0563bb;
+    color: #37CCD7;
 }
 
 .about .content p:last-child {
@@ -456,7 +444,7 @@ section {
 }
 
 .about svg {
-    color: #0563bb;
+    color: #37CCD7;
 }
 
 
@@ -481,7 +469,7 @@ section {
     left: 50%;
     transform: translateX(-50%);
     font-size: 24px;
-    background: #0563bb;
+    background: #37CCD7;
     padding: 12px;
     color: #fff;
     border-radius: 50px;
@@ -491,7 +479,7 @@ section {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    background: #0563bb;
+    background: #37CCD7;
     border-radius: 50%;
     color: #fff;
     font-size: 24px;
@@ -545,7 +533,7 @@ section {
     width: 1px;
     height: 10px;
     transition: .9s;
-    background-color: #0563bb;
+    background-color: #37CCD7;
 }
 
 
@@ -564,7 +552,7 @@ section {
 .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #0563bb;
+    border-left: 2px solid #37CCD7;
     position: relative;
 }
 
@@ -574,7 +562,7 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: #0563bb;
+    color: #37CCD7;
     margin-bottom: 10px;
 }
 
@@ -608,7 +596,7 @@ section {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #0563bb;
+    border: 2px solid #37CCD7;
 }
 
 
@@ -645,7 +633,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    color: #0563bb;
+    color: #37CCD7;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -799,8 +787,6 @@ section {
     position: absolute;
 }
 
-
-
 .services .icon-box .icon svg.svglayer {
     transition: all 0.5s linear;
 }
@@ -810,7 +796,7 @@ section {
     position: absolute;
     top: 37%;
     left: 34%;
-    color: #11dbcf;
+    color: #37CCD7;
     font-size: 29px;
 }
 
@@ -897,7 +883,7 @@ section {
 }
 
 .services .iconbox-teal i {
-    color: #11dbcf;
+    color: #37CCD7;
 }
 
 .services .iconbox-teal:hover .icon i {
@@ -913,7 +899,7 @@ section {
 }
 
 .services .iconbox-teal:hover .icon path {
-    fill: #11dbcf;
+    fill: #37CCD7;
 }
 
 .services .iconbox-teal:hover .icon svg.svg-inline--fa path {
@@ -921,7 +907,7 @@ section {
 }
 
 .services .iconbox-blue:hover .icon i {
-    color: #0678e3
+    color: #37CCD7
 }
 
 
@@ -997,7 +983,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-    background-color: #0563bb !important;
+    background-color: #37CCD7 !important;
 }
 
 @media (min-width: 992px) {
@@ -1031,11 +1017,11 @@ section {
 }
 
 .contact .info>div:hover .box-icon {
-    background: #0563bb;
+    background: #37CCD7;
 }
 
 .contact .info svg {
-    color: #0563bb;
+    color: #37CCD7;
     transition: all 0.3s ease-in-out;
     font-size: 17px;
 }
@@ -1063,13 +1049,13 @@ section {
 }
 
 .contact .info a:hover {
-    color: #0563bb;
+    color: #37CCD7;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-    background: #0563bb;
+    background: #37CCD7;
     color: #fff;
 }
 
@@ -1148,7 +1134,7 @@ section {
 }
 
 .contact .php-email-form input[type="submit"] {
-    background: #0563bb;
+    background: #37CCD7;
     border: 0;
     padding: 10px 35px;
     color: #fff;
@@ -1157,7 +1143,7 @@ section {
 }
 
 .contact .php-email-form input[type="submit"]:hover {
-    background: #0678e3;
+    background: #37CCD7;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1177,7 +1163,6 @@ section {
         transform: rotate(360deg);
     }
 }
-
 
 
 /*========================================================
@@ -1279,7 +1264,7 @@ textarea.form-control {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-    background-color: #0563bb !important;
+    background-color: #37CCD7 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1349,7 +1334,7 @@ textarea.form-control {
 #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #0563bb;
+    background: #37CCD7;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -1362,7 +1347,7 @@ textarea.form-control {
 }
 
 #footer .social-links a:hover {
-    background: #0678e3;
+    background: #37CCD7;
     color: #fff;
     text-decoration: none;
 }
@@ -1374,6 +1359,7 @@ textarea.form-control {
 #footer .credits {
     font-size: 13px;
 }
+
 
 /* #Cursor
 ================================================== */
@@ -1421,7 +1407,33 @@ textarea.form-control {
     background: #45505b;
     box-shadow: 0 0 0 rgba(255, 255, 255, 0.2);
 }
+
 .img-fluid {
     width: 100%;
     height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    /* border-radius: 50px; */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #37CCD7 !important;
+    /* border-radius: 50px; */
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgb(0 0 0 / 5%) !important;
+    -moz-box-shadow: inset 0 0 6px rgb(0 0 0 / 5%) !important;
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 5%) !important;
+    -ms-box-shadow: inset 0 0 6px rgb(0 0 0 / 5%) !important;
+    -o-box-shadow: inset 0 0 6px rgb(0 0 0 / 5%) !important;
+}
+
+
+/* FrameWork */
+
+.m-bg {
+    background-color: #37CCD7 !important;
 }
